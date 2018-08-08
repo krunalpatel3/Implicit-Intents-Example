@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Implicit Intends app</string>
+    <string name="https_www_google_com">https://www.google.com/</string>
+    <string name="open_in_web">Open in Web</string>
+    <string name="india">Australia</string>
+    <string name="open_in_map">Open in Map</string>
+    <string name="andorid">Andorid</string>
+    <string name="share_with_app">Share with App</string>
+    <string name="country">Country</string>
+    <string name="website">WebSite</string>
+    <string name="word">Word</string>
+    <string name="dial">Dial</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="_1099945969">1099945969</string>
+
+
+</resources>

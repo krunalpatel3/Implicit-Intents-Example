@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <EditText
+        android:id="@+id/editTextWeb"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="33dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="@string/website"
+        android:inputType="textPersonName"
+        android:text="@string/https_www_google_com"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonWeb"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:text="@string/open_in_web"
+        app:layout_constraintStart_toStartOf="@+id/editTextWeb"
+        app:layout_constraintTop_toTopOf="@+id/editTextWeb" />
+
+    <EditText
+        android:id="@+id/editTextMap"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:hint="@string/country"
+        android:inputType="textPersonName"
+        android:text="@string/india"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonWeb" />
+
+    <Button
+        android:id="@+id/buttonMap"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:text="@string/open_in_map"
+        app:layout_constraintStart_toStartOf="@+id/editTextMap"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMap" />
+
+    <EditText
+        android:id="@+id/editTextShare"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="47dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginStart="34dp"
+        android:ems="10"
+        android:hint="@string/word"
+        android:inputType="textPersonName"
+        android:text="@string/andorid"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonShare"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonShare"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="158dp"
+        android:layout_marginStart="33dp"
+        android:text="@string/share_with_app"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonDial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="@string/dial"
+        app:layout_constraintStart_toStartOf="@+id/editTextDialNumber"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDialNumber" />
+
+    <EditText
+        android:id="@+id/editTextDialNumber"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="@string/phone_number"
+        android:inputType="phone"
+        android:text="@string/_1099945969"
+        app:layout_constraintStart_toStartOf="@+id/buttonShare"
+        app:layout_constraintTop_toBottomOf="@+id/buttonShare" />
+</android.support.constraint.ConstraintLayout>
